@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy & Terms of Service | Ventistry Hair</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #FBF9F6;
+            color: #222;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 700px;
+            margin: 4rem auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(201,169,97,0.08);
+            padding: 3rem 2rem;
+        }
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            color: #C9A961;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .nav-links a {
+            color: #C9A961;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover {
+            color: #B8860B;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+        h2 {
+            font-family: 'Orbitron', sans-serif;
+            color: #C9A961;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+        ul {
+            margin-left: 1.5rem;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 2rem;
+            background: #C9A961;
+            color: #fff;
+            padding: 0.7rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: box-shadow 0.2s;
+        }
+        .back-btn:hover {
+            box-shadow: 0 4px 16px rgba(201,169,97,0.18);
+            color: #222;
+            background: #B8860B;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 1.2rem 0.5rem; }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy & Terms of Service</h1>
+        <div class="nav-links">
+            <a href="#privacy-policy">Privacy Policy</a>
+            <a href="#terms-of-service">Terms of Service</a>
+        </div>
+        <section id="privacy-policy">
+            <h2>Privacy Policy</h2>
+            <p>
+                At Ventistry Hair, your privacy is important to us. We do not share your personal information with third parties except as required by Nigerian law.
+            </p>
+            <ul>
+                <li><strong>Information Collection:</strong> We collect information you provide when contacting us or booking a consultation. This may include your name, email, phone number, and message.</li>
+                <li><strong>Use of Information:</strong> Your data is used only to provide our services and respond to your inquiries. We do not sell or share your information.</li>
+                <li><strong>Cookies:</strong> Our website may use cookies to improve your experience. You can adjust your browser settings to refuse cookies.</li>
+                <li><strong>Security:</strong> We use reasonable measures to protect your data from unauthorized access.</li>
+                <li><strong>Updates:</strong> We may update this policy periodically. Changes will be posted here.</li>
+            </ul>
+            <p>
+                For questions about our privacy practices, please contact us at <a href="mailto:hello@ventristryhair.com.ng" style="color:#C9A961;">hello@ventristryhair.com.ng</a>.
+            </p>
+        </section>
+        <section id="terms-of-service">
+            <h2>Terms of Service</h2>
+            <p>
+                By using Ventistry Hair’s website and services, you agree to the following terms:
+            </p>
+            <ul>
+                <li><strong>Service Use:</strong> All content and services are for your personal use. You agree not to misuse, copy, or redistribute our materials without permission.</li>
+                <li><strong>Intellectual Property:</strong> All designs and content created by Ventistry Hair remain our intellectual property until full payment is received.</li>
+                <li><strong>Payments:</strong> Payment terms are outlined during your consultation or booking. Late payments may result in service suspension.</li>
+                <li><strong>Limitation of Liability:</strong> We strive for excellence, but cannot guarantee uninterrupted service or specific results. Ventistry Hair is not liable for indirect damages arising from use of our services.</li>
+                <li><strong>Changes:</strong> We may update these terms at any time. Continued use of our services constitutes acceptance of any changes.</li>
+            </ul>
+            <p>
+                For questions regarding these terms, please contact us at <a href="mailto:hello@ventristryhair.com.ng" style="color:#C9A961;">hello@ventristryhair.com.ng</a>.
+            </p>
+        </section>
+        <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Go Back</a>
+    </div>
+    <script>
+        // Smooth scroll for bookmarks
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>

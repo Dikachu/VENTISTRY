@@ -87,9 +87,9 @@ Ventistry Hair's website is designed to:
 ## Contact
 
 **Ventistry Hair**  
-123 Luxury Lane, Beverly Hills, CA 90210  
-Phone: +1 (555) 123-4567  
-Email: hello@ventristryhair.com  
+17th romachukwu str off one day road Awkunanaw Enugu
+Phone: +2347025805812
+Email: aguassumpta2018@gmail.com
 Business Hours: Mon-Fri 9AM-6PM, Sat 10AM-4PM
 
 ---
